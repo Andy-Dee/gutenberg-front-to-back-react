@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Wrapper from "../components/Wrapper";
+import Wrapper from "./components/Wrapper";
 
 window.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".mt-block-user-card-wrapper");

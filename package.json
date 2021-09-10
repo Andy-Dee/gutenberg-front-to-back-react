@@ -1,37 +1,37 @@
 {
-	"name": "gutenberg-user-card",
-	"version": "1.0.0",
-	"private": true,
-	"description": "Gutenberg User Card",
-	"author": "Gutenberg User Card",
-	"license": "GPL-2.0-or-later",
-	"keywords": [
-		"WordPress",
-		"block"
-	],
-	"homepage": "https://gitlab.com/michal.trykoszko/gutenberg-user-card",
-	"repository": "git+https://gitlab.com/michal.trykoszko/gutenberg-user-card.git",
-	"bugs": {
-		"url": "https://gitlab.com/michal.trykoszko/gutenberg-user-card/issues"
-	},
-	"main": "build/index.js",
-	"devDependencies": {
-		"@wordpress/scripts": "^7.1.1",
-		"eslint": "^7.32.0",
-		"eslint-plugin-react": "^7.25.1"
-	},
-	"scripts": {
-		"build": "wp-scripts build ./src/index.js ./src/front.js",
-		"format:js": "wp-scripts format-js",
-		"lint:js": "wp-scripts lint-js",
-		"start": "wp-scripts start ./src/index.js ./src/front.js"
-	},
-	"dependencies": {
-		"@wordpress/api-fetch": "^3.11.0",
-		"@wordpress/block-editor": "^3.7.4",
-		"@wordpress/components": "^9.2.3",
-		"@wordpress/element": "^2.11.0",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
-	}
+  "name": "immocalc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ImmoCalc",
+  "author": "Ivan Jeremic",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "block"
+  ],
+  "homepage": "https://gitlab.com/ivanjeremic/immocalc",
+  "repository": "git+https://gitlab.com/ivanjeremic/immocalc.git",
+  "bugs": {
+    "url": "https://gitlab.com/ivanjeremic/immocalc/issues"
+  },
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "start": "wp-scripts start ./src/index.js ./src/front.js"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^3.11.0",
+    "@wordpress/block-editor": "^3.7.4",
+    "@wordpress/components": "^9.2.3",
+    "@wordpress/element": "^2.11.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^7.1.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.1"
+  }
 }

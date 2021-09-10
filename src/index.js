@@ -6,8 +6,8 @@ import { PanelBody, SelectControl } from "@wordpress/components";
 import { InspectorControls } from "@wordpress/block-editor";
 
 // Internal dependencies
-import UserCard from "../components/UserCard";
-import Wrapper from "../components/Wrapper";
+import UserCard from "./components/UserCard";
+import Wrapper from "./components/Wrapper";
 
 // Utility functions / helpers
 import { getAllUsers, getUserById } from "./utils";
