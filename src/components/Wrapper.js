@@ -4,6 +4,13 @@ import UserCard from "./UserCard";
 export default function Wrapper(props) {
   const { attributes } = props;
 
+  /* ****************************************************************************
+  All the React logic and hooks must be inside this file and passed down then
+  to the components. Do not use React hooks or logic stuff directly in components
+  like UserCard it should be here in the Wrapper only as you can see we pass down
+  the Modal state and the Counter state and actions.
+  ***************************************************************************** */
+
   const [count, setCount] = useState(attributes.count);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const toggleModal = useCallback(
